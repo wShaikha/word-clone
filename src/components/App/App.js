@@ -1,5 +1,6 @@
 import Game from '../Game';
 import Header from '../Header';
+// import Form from '../GuessInput/GuessInput';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
 
       <div className="game-wrapper">
+        {/* <Form /> */}
         <Game />
       </div>
     </div>
